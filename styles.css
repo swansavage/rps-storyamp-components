@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "futura-pt", sans-serif;
+    font-size: 1.2rem;
+    background: #292d3b;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+}
+
+.logo {
+    padding-left: 4rem;
+}
+
+.logo img {
+    max-height: 85px; /* Adjust the height as needed */
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-right: 4rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.header-right span {
+    font-family: "Lato", sans-serif;
+    font-size: 1.25rem;
+    margin-right: 20px;
+}
+
+.btn {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    letter-spacing: .02rem;
+    padding: 1.2rem 1.725rem;
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-btn {
+    background-color: #dd1278;
+}
+
+.success-stories-btn {
+    background-color: #794bff;
+}
+
+.footer-btn {
+    width: 16rem;
+    margin-bottom: 2rem;
+}
+
+.learn-more-btn:hover {
+    background-color: #bb105e;
+}
+
+.success-stories-btn:hover {
+    background-color: #5933cc;
+}
+
+.separator {
+    width: 90%; /* Adjust the width as needed */
+    margin: 0 auto;
+    border: 0;
+    border-top: 2px solid #ddd;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+
+.filler-content {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    padding: 20px 20px 0;
+}
+
+.footer p {
+    width: 70%;
+    margin: 0 auto 2rem;
+}
+
+.copyright {
+    font-size: .75rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        padding-left: 0;
+    }
+
+    .header-right {
+        margin-right: 0;
+        margin-top: 1rem;
+        gap: 0.5rem;
+    }
+
+    .header-right span {
+        margin-right: 0;
+        font-size: 1rem;
+    }
+
+    .btn {
+        padding: 0.8rem 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    .footer p {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .footer-btn {
+       
+        margin-bottom: 1rem;
+    }
+}
