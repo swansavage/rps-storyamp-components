@@ -19,7 +19,7 @@ body {
 }
 
 .logo img {
-    max-height: 85px; /* Adjust the height as needed */
+    max-height: 45px; 
 }
 
 .header-right {
@@ -27,7 +27,6 @@ body {
     flex-direction: column;
     gap: 1.25rem;
     margin-right: 4rem;
-    margin-top: 1rem;
     align-items: center;
 }
 
@@ -53,6 +52,15 @@ body {
     transition: background-color 0.3s ease;
 }
 
+.work-with-us-btn {
+    color: white;
+    font-size: 1rem;
+    padding-bottom: .5rem;
+    text-decoration: none;
+    
+    
+}
+
 .learn-more-btn {
     background-color: #dd1278;
 }
@@ -75,7 +83,7 @@ body {
 }
 
 .separator {
-    width: 90%; /* Adjust the width as needed */
+    width: 90%;
     margin: 0 auto;
     border: 0;
     border-top: 2px solid #ddd;
@@ -104,7 +112,7 @@ body {
     font-size: .75rem;
 }
 
-/* Mobile responsiveness */
+
 @media (max-width: 768px) {
     .header {
         flex-direction: column;
@@ -138,7 +146,13 @@ body {
     }
 
     .footer-btn {
-       
         margin-bottom: 1rem;
     }
 }
+
+.fa-circle-arrow-right {
+    color: #dd1278;
+    margin-left: .25rem;
+    
+}
+
